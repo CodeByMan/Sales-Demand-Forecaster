@@ -1,0 +1,24 @@
+{
+  "results": [
+    {
+      "model": "LSTM",
+      "MAPE": 8.17,
+      "RMSE": 1819.7
+    },
+    {
+      "model": "Holt-Winters",
+      "MAPE": 2.66,
+      "RMSE": 712.5
+    },
+    {
+      "model": "SARIMA",
+      "MAPE": 2.99,
+      "RMSE": 718.6
+    }
+  ],
+  "best": {
+    "model": "Holt-Winters",
+    "MAPE": 2.66,
+    "RMSE": 712.5
+  }
+}

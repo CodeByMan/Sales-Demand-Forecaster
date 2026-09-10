@@ -1,0 +1,6 @@
+# Local development, testing, and notebook dependencies.
+-r requirements.txt
+tensorflow-cpu==2.21.0
+pytest==9.1.1
+matplotlib==3.11.1
+jupyter==1.1.1
