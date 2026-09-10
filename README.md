@@ -4,7 +4,7 @@
 
 A Streamlit forecasting application for validating monthly sales data, comparing an LSTM with classical time-series baselines, back-testing model accuracy, and producing a practical sales forecast.
 
-![Python](https://img.shields.io/badge/Python-3.12%2B-3776ab?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13%2B-3776ab?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/App-Streamlit-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/AI-TensorFlow%2FKeras-ff6f00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Statsmodels](https://img.shields.io/badge/Forecasting-statsmodels-4051b5?style=for-the-badge)
@@ -80,7 +80,7 @@ The project combines a **TensorFlow/Keras LSTM**, **Holt-Winters exponential smo
 
 ### Application
 
-- Python 3.12 recommended by `runtime.txt`
+- Python 3.13
 - Streamlit
 - Pandas and NumPy
 - Plotly
@@ -172,7 +172,7 @@ For Streamlit Community Cloud, add `SALESFORECAST_ACCESS_KEY` as a secret. Never
 Install:
 
 - Windows 10 or Windows 11
-- Python 3.12 recommended; Python 3.13 was also verified in the reported local run
+- Python 3.13
 - A working internet connection for dependency installation
 - TensorFlow-compatible CPU environment for the local LSTM workflow
 
@@ -372,14 +372,14 @@ This is a Streamlit application rather than a REST API, so it does not expose AP
 
 ## 🧑‍💻 Author
 
-**Muhammad Ali Nawaz 2026**  
-AI Developer Project
+**Muhammad Ali Nawaz**  
+AI Developer
 
 ---
 
 ## 📄 License
 
-No license file is included in the current project archive. Add an explicit license before external redistribution.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
